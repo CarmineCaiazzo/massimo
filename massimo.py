@@ -1,19 +1,19 @@
 #Programma che individua il massimo tra 10 interi.
 
-i = 0
+i = 2
 
-N = input('Inserisci 1o valore:  ')
+N = input('Inserisci 1° valore:  ')
 N = int(N)
 M = N
 
-while  i<9
+while i<11:
+   N = input('Inserisci ' + str(i) +'° valore:  ')
+   N = int(N)
+   if N>M:
+      M = N
+	
+   i += 1 
 
- N = input('Inserisci ' i 'o valore:  ')
- N = int(N)
- M = N
- 
+print ('il valore più alto inserito è: ' + str(M))
 
-
-     print i 
-     i += 1 
       
